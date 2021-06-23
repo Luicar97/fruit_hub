@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fruit_hub/widgets/head_img_widget.dart';
 
 class StartOrderPage extends StatelessWidget {
   const StartOrderPage({Key key}) : super(key: key);
@@ -17,7 +18,10 @@ class StartOrderPage extends StatelessWidget {
           //controller: controller,
           child: Column(
             children: [
-              Text('data'),
+              HeadImgWidget(
+                urlImg: 'assets/img/canasta.png',
+                urlShadow: 'assets/img/sombra2.png',
+              ),
             ],
           ),
         ),
