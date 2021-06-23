@@ -2,7 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:fruit_hub/pages/start_order/start_order_page.dart';
 
 class ButtonWidget extends StatelessWidget {
-  const ButtonWidget({Key key}) : super(key: key);
+  final String title;
+  final Function onPressed;
+  const ButtonWidget({
+    Key key,
+    this.title,
+    this.onPressed,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -28,16 +34,9 @@ class ButtonWidget extends StatelessWidget {
               ),
             ),
           ),
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (context) => StartOrderPage(),
-              ),
-            );
-          },
+          onPressed: () => this.onPressed,
           child: Text(
-            '¡Continuemos!',
+            this.title,
             style: TextStyle(
               fontFamily: 'TTNorms-Bold',
               color: Colors.white,

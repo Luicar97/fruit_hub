@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:fruit_hub/pages/start_order/start_order_page.dart';
 import 'package:fruit_hub/widgets/button_widget.dart';
+import 'package:fruit_hub/widgets/title_widget.dart';
 
 class BodyWidget extends StatelessWidget {
   const BodyWidget({Key key}) : super(key: key);
@@ -16,20 +18,13 @@ class BodyWidget extends StatelessWidget {
             height: 30,
           ),
           Padding(
-            padding: const EdgeInsets.only(
-              right: 16,
-              left: 16,
-            ),
-            child: Container(
-              child: Text(
-                'Obtenga el combo de ensalada de frutas más fresco',
-                style: TextStyle(
-                  fontFamily: 'TTNorms-Bold',
-                  fontSize: 18,
-                ),
+              padding: const EdgeInsets.only(
+                right: 16,
+                left: 16,
               ),
-            ),
-          ),
+              child: TitleWidget(
+                title: 'Obtenga el combo de ensalada de frutas más fresco',
+              )),
           SizedBox(
             height: 10,
           ),
@@ -51,7 +46,17 @@ class BodyWidget extends StatelessWidget {
           SizedBox(
             height: 35,
           ),
-          ButtonWidget(),
+          ButtonWidget(
+            title: '¡Continuemos!',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => StartOrderPage(),
+                ),
+              );
+            },
+          ),
         ],
       ),
     );
