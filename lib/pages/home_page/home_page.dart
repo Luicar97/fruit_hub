@@ -40,6 +40,9 @@ class HomePage extends StatelessWidget {
                             borderRadius: BorderRadius.circular(10),
                             borderSide: BorderSide.none,
                           ),
+                          prefixIcon: Icon(
+                            Icons.search,
+                          ),
                           hintText: 'Buscar ensaladas de frutas ',
                           hintStyle: TextStyle(
                             color: Colors.grey.withOpacity(
