@@ -5,7 +5,7 @@ class HeadHomeWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    returnFlex(
+    return Flex(
       direction: Axis.horizontal,
       children: [
         Container(
