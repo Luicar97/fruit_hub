@@ -34,7 +34,7 @@ class ButtonWidget extends StatelessWidget {
               ),
             ),
           ),
-          onPressed: () => this.onPressed,
+          onPressed: this.onPressed,
           child: Text(
             this.title,
             style: TextStyle(
