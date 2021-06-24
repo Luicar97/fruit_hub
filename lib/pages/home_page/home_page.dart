@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fruit_hub/pages/add_to_basket_page/add_to_basket_page.dart';
 import 'package:fruit_hub/pages/home_page/widgets/carrousel_option_widget.dart';
 import 'package:fruit_hub/pages/home_page/widgets/head_home_widget.dart';
 import 'package:fruit_hub/widgets/line_widget.dart';
@@ -150,14 +151,25 @@ class HomePage extends StatelessWidget {
                                         ),
                                       ),
                                     ),
-                                    Padding(
-                                      padding: const EdgeInsets.only(
-                                        top: 16,
-                                      ),
-                                      child: Container(
-                                        alignment: Alignment.center,
-                                        child: Image.asset(
-                                            'assets/img/comida1.png'),
+                                    GestureDetector(
+                                      onTap: () {
+                                        Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (context) =>
+                                                AddToBasketPage(),
+                                          ),
+                                        );
+                                      },
+                                      child: Padding(
+                                        padding: const EdgeInsets.only(
+                                          top: 16,
+                                        ),
+                                        child: Container(
+                                          alignment: Alignment.center,
+                                          child: Image.asset(
+                                              'assets/img/comida1.png'),
+                                        ),
                                       ),
                                     ),
                                   ],
