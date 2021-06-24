@@ -81,6 +81,41 @@ class HomePage extends StatelessWidget {
                   )
                 ],
               ),
+            ),
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Container(
+                    height: 150,
+                    width: 150,
+                    color: Colors.red,
+                  ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Container(
+                    height: 150,
+                    width: 150,
+                    color: Colors.red,
+                  ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Container(
+                    height: 150,
+                    width: 150,
+                    color: Colors.red,
+                  ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                ],
+              ),
             )
           ],
         ),
