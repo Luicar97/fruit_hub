@@ -452,6 +452,10 @@ class HomePage extends StatelessWidget {
                                           top: 16,
                                         ),
                                         child: Container(
+                                          height: MediaQuery.of(context)
+                                                  .size
+                                                  .width *
+                                              0.22,
                                           alignment: Alignment.center,
                                           child: Image.asset(
                                             'assets/img/comida3.png',
@@ -470,7 +474,7 @@ class HomePage extends StatelessWidget {
                                   Container(
                                     alignment: Alignment.centerLeft,
                                     child: Text(
-                                      'Honey lime combo',
+                                      'Quinoa fruit salad',
                                       style: TextStyle(
                                         fontFamily: 'TTNorms-Bold',
                                         fontSize: 15,
@@ -548,7 +552,12 @@ class HomePage extends StatelessWidget {
                             Container(
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(10),
-                                color: Colors.white,
+                                color: Color.fromRGBO(
+                                  254,
+                                  244,
+                                  244,
+                                  1,
+                                ),
                               ),
                               padding: EdgeInsets.only(
                                 left: 8,
@@ -584,6 +593,10 @@ class HomePage extends StatelessWidget {
                                           top: 16,
                                         ),
                                         child: Container(
+                                          height: MediaQuery.of(context)
+                                                  .size
+                                                  .width *
+                                              0.22,
                                           alignment: Alignment.center,
                                           child: Image.asset(
                                             'assets/img/comida4.png',
@@ -602,7 +615,7 @@ class HomePage extends StatelessWidget {
                                   Container(
                                     alignment: Alignment.centerLeft,
                                     child: Text(
-                                      'Honey lime combo',
+                                      'Tropical fruit salad',
                                       style: TextStyle(
                                         fontFamily: 'TTNorms-Bold',
                                         fontSize: 15,
@@ -680,7 +693,12 @@ class HomePage extends StatelessWidget {
                             Container(
                               decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(10),
-                                color: Colors.white,
+                                color: Color.fromRGBO(
+                                  241,
+                                  239,
+                                  246,
+                                  1,
+                                ),
                               ),
                               padding: EdgeInsets.only(
                                 left: 8,

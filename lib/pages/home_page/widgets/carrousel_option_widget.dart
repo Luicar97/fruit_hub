@@ -39,7 +39,7 @@ class CarruselOptionWidget extends StatelessWidget {
               //width: 100,
               //color: Colors.red,
               child: Text(
-                'All',
+                'Todo',
                 style: TextStyle(
                   fontFamily: 'TTNorms',
                   fontSize: 16,
