@@ -99,7 +99,26 @@ class HomePage extends StatelessWidget {
                 title: 'Combo recomendado',
               ),
             ),
-            LineWidget()
+            LineWidget(),
+            Flex(
+              direction: Axis.horizontal,
+              children: [
+                Expanded(
+                  child: Container(
+                      color: Colors.red,
+                      child: Column(
+                        children: [
+                          Container(
+                            child: Image.asset('assets/img/comida1.png'),
+                          ),
+                        ],
+                      )),
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+              ],
+            ),
           ],
         ),
       ),
