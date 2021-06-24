@@ -31,4 +31,8 @@ Authentication:
 
 ![Screenshot_2021-06-23-16-31-01-156_com example fruit_hub](https://user-images.githubusercontent.com/36460315/123172711-20049280-d443-11eb-913f-f1dd0fc7e0c7.jpg)
 
-Proxima vista Home Screen...
+Home Screen:
+
+![Screenshot_2021-06-24-17-09-40-253_com example fruit_hub](https://user-images.githubusercontent.com/36460315/123338889-2e1fe500-d50f-11eb-929e-a370663bd620.jpg)
+
+Proxima vista add_to_basket
