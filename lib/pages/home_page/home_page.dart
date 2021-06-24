@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:fruit_hub/pages/home_page/widgets/carrousel_option_widget.dart';
 import 'package:fruit_hub/pages/home_page/widgets/head_home_widget.dart';
 
 class HomePage extends StatelessWidget {
@@ -28,6 +29,7 @@ class HomePage extends StatelessWidget {
               padding: const EdgeInsets.only(
                 left: 16,
                 right: 16,
+                bottom: 20,
               ),
               child: Flex(
                 direction: Axis.horizontal,
@@ -78,45 +80,11 @@ class HomePage extends StatelessWidget {
                     child: Icon(
                       Icons.open_in_new,
                     ),
-                  )
+                  ),
                 ],
               ),
             ),
-            SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  SizedBox(
-                    width: 10,
-                  ),
-                  Container(
-                    height: 150,
-                    width: 150,
-                    color: Colors.red,
-                  ),
-                  SizedBox(
-                    width: 10,
-                  ),
-                  Container(
-                    height: 150,
-                    width: 150,
-                    color: Colors.red,
-                  ),
-                  SizedBox(
-                    width: 10,
-                  ),
-                  Container(
-                    height: 150,
-                    width: 150,
-                    color: Colors.red,
-                  ),
-                  SizedBox(
-                    width: 10,
-                  ),
-                ],
-              ),
-            )
+            CarruselOptionWidget(),
           ],
         ),
       ),
