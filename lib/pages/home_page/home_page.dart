@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:fruit_hub/pages/home_page/widgets/carrousel_option_widget.dart';
 import 'package:fruit_hub/pages/home_page/widgets/head_home_widget.dart';
+import 'package:fruit_hub/widgets/line_widget.dart';
+import 'package:fruit_hub/widgets/title_regular_widget.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key key}) : super(key: key);
@@ -85,6 +87,19 @@ class HomePage extends StatelessWidget {
               ),
             ),
             CarruselOptionWidget(),
+            SizedBox(
+              height: 15,
+            ),
+            Padding(
+              padding: const EdgeInsets.only(
+                right: 16,
+                left: 16,
+              ),
+              child: TitleRegularWidget(
+                title: 'Combo recomendado',
+              ),
+            ),
+            LineWidget()
           ],
         ),
       ),
