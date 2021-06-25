@@ -33,6 +33,12 @@ Authentication:
 
 Home Screen:
 
-![Screenshot_2021-06-24-17-09-40-253_com example fruit_hub](https://user-images.githubusercontent.com/36460315/123338889-2e1fe500-d50f-11eb-929e-a370663bd620.jpg)
+![Screenshot_2021-06-24-21-03-59-607_com example fruit_hub](https://user-images.githubusercontent.com/36460315/123357775-cd54d480-d52f-11eb-9a87-c788577a0398.jpg)
 
-Proxima vista add_to_basket
+![Screenshot_2021-06-24-21-03-52-351_com example fruit_hub](https://user-images.githubusercontent.com/36460315/123357784-d180f200-d52f-11eb-8940-befd487b2529.jpg)
+
+add_to_basket:
+
+![Screenshot_2021-06-24-20-58-59-259_com example fruit_hub](https://user-images.githubusercontent.com/36460315/123357522-443d9d80-d52f-11eb-93e1-210aadc065f9.jpg)
+
+Proxima vista order_list !!!
