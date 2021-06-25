@@ -700,7 +700,7 @@ class HomePage extends StatelessWidget {
                               ),
                             ),
                             SizedBox(
-                              height: 16,
+                              width: 16,
                             ),
                             Container(
                               decoration: BoxDecoration(
