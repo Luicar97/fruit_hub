@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:fruit_hub/pages/add_to_basket_page/widgets/contain_basket.dart';
 import 'package:fruit_hub/pages/add_to_basket_page/widgets/description_widget.dart';
+import 'package:fruit_hub/pages/add_to_basket_page/widgets/heart_basket.dart';
 import 'package:fruit_hub/pages/add_to_basket_page/widgets/price_widget.dart';
 import 'package:fruit_hub/pages/add_to_basket_page/widgets/quantity_widget.dart';
 import 'package:fruit_hub/pages/add_to_basket_page/widgets/title_basket_widget.dart';
@@ -139,29 +140,7 @@ class AddToBasketPage extends StatelessWidget {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Container(
-                            decoration: BoxDecoration(
-                              color: Color.fromRGBO(
-                                255,
-                                247,
-                                240,
-                                1,
-                              ),
-                              borderRadius: BorderRadius.circular(
-                                28,
-                              ),
-                            ),
-                            padding: EdgeInsets.all(8),
-                            child: Icon(
-                              Icons.favorite_border_rounded,
-                              color: Color.fromRGBO(
-                                255,
-                                164,
-                                81,
-                                1,
-                              ),
-                            ),
-                          ),
+                          HeartBasketWidget(),
                           Container(
                             width: MediaQuery.of(context).size.width * 0.6,
                             height: 50,
