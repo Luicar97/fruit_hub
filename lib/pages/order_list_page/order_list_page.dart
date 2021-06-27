@@ -35,7 +35,7 @@ class OrderListPage extends StatelessWidget {
                         left: 15,
                       ),
                       child: Text(
-                        'Mi canasta',
+                        'Mi carrito',
                         style: TextStyle(
                           color: Colors.white,
                           fontFamily: 'TTNorms-Bold',
