@@ -41,4 +41,8 @@ add_to_basket:
 
 ![Screenshot_2021-06-24-20-58-59-259_com example fruit_hub](https://user-images.githubusercontent.com/36460315/123357522-443d9d80-d52f-11eb-93e1-210aadc065f9.jpg)
 
-Proxima vista order_list !!!
+order_list:
+
+![Screenshot_2021-06-26-21-22-23-683_com example fruit_hub](https://user-images.githubusercontent.com/36460315/123530906-4cc7dc80-d6c5-11eb-9fcf-c6c077cda36d.jpg)
+
+Proxima vista Delivery details y add_card !!!
