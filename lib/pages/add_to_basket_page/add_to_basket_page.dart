@@ -5,6 +5,7 @@ import 'package:fruit_hub/pages/add_to_basket_page/widgets/heart_basket.dart';
 import 'package:fruit_hub/pages/add_to_basket_page/widgets/price_widget.dart';
 import 'package:fruit_hub/pages/add_to_basket_page/widgets/quantity_widget.dart';
 import 'package:fruit_hub/pages/add_to_basket_page/widgets/title_basket_widget.dart';
+import 'package:fruit_hub/pages/order_list_page/order_list_page.dart';
 import 'package:fruit_hub/widgets/button_widget.dart';
 import 'package:fruit_hub/widgets/go_back_widget.dart';
 import 'package:fruit_hub/widgets/line_widget.dart';
@@ -164,7 +165,14 @@ class AddToBasketPage extends StatelessWidget {
                                   ),
                                 ),
                               ),
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.push(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => OrderListPage(),
+                                  ),
+                                );
+                              },
                               child: Text(
                                 'Agregar al carrito',
                                 style: TextStyle(
